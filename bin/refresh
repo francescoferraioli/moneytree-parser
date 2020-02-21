@@ -1,0 +1,1 @@
+python moneytree.py refresh | perl -ne '$|=1; print localtime . ": $_"' >> logs/refresh_output.txt

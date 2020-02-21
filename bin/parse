@@ -1,0 +1,1 @@
+python moneytree.py parse | perl -ne '$|=1; print localtime . ": $_"' >> logs/parse_output.txt
